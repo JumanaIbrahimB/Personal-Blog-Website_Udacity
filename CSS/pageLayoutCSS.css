@@ -1,0 +1,65 @@
+.box{
+    background: #f2f2f2;
+}
+body {
+    background-color: #f2f2f2;
+    margin: 0%;
+}
+#bolg{
+    display: inline-block;
+    font-size: 40px;
+    color: #FDEFEF;
+    margin-left: 22px;
+    font-family: Monospace;
+}
+#subscribe{
+    float: right;
+    margin-top: 40px;
+    color: black;
+    color: #FDEFEF;
+    font-size: 22px;
+    margin-right: 22px;
+    font-family: Courier New, Monospace;
+}
+#footer_h1{
+    color: #FDEFEF;
+    margin: 20px;
+    text-align: center;
+    font-family: Monospace;
+}
+.menu {
+    display: inline-block;
+    float: right;
+    margin-top: 40px;
+    margin-right: 35px;
+}
+.menu a{
+    text-decoration: none;
+    color: #FDEFEF;
+}
+.menu .homepage {
+    margin: 0;
+    font-size: 22px;
+    border: none;
+    background-color: #CDBBA7 ;
+    color: #FDEFEF;
+    font-family: Courier New, Monospace;
+}
+.menu:hover .pages {
+    display: block;
+}
+.pages {
+    display: none;
+    width: 130px;
+    position: absolute;
+    font-family: Courier New, Monospace;
+    background-color: #FDEFEF;
+    z-index: 1;
+}
+.pages a {
+    color: #CDBBA7;
+    text-decoration: none;
+    display: block;
+    padding: 12px 16px;
+    text-align: center;
+}
